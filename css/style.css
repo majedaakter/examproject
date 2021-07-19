@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+}
+.header-area{
+   width: 100%;
+    height: 100vh;
+    background-image: url(../img/img-1\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-color: teal; */
+}
+.banner{
+    background-color: teal; 
+    height: 100vh;
+    width: 100%;
+    opacity: 0.8;
+}
+.brand-area{
+   float: left;
+    width: 200px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.brand-name{
+    font-size: 20px;
+    color: rgb(240, 227, 227);
+    text-decoration: none;
+ font-weight: 900;
+    width: 200px;
+    display: inline-block; 
+    margin: 10px;
+}
+nav{
+    float: left;
+   margin-top: 30px;
+    width: auto;
+    /*height: 50px;*/
+}
+
+.firstul{
+   list-style: none; 
+   position: relative;
+}
+
+.firstli{
+    float: right;
+}
+
+.firsta{
+    font-size: 20px;
+    color: rgb(241, 231, 231);
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 10px 15px;
+  /* border: 1px solid green;*/
+    display: inline-block;
+
+}
+.banner-btn{
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 0.5rem 1rem;
+    border-radius: 3.2rem;
+    background: #fb3e3e;
+margin-left: 100px;
+margin-top: 30px;
+     transition: 0.8s all ease; 
+    color: #fff;
+     box-shadow: 2px 2px 5px  #fb924a,-1px -1px 5px #fb924a; 
+    display: inline-block;
+    ;
+}
+
+.heading{
+    padding: 100px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+.para{
+    color: rgba(255, 255, 255, 0.705);
+    text-align: center;
+    font-size: 20px;
+    margin-top: -80px;
+}
+.parent{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+}
+.fas{
+    color: white;
+    font-size: 25px;
+    padding: 5px 10px;
+}
+@keyframes circle {
+  from{
+   transform: rotate(0deg);
+  }  
+  to{
+      transform: rotate(360deg);
+  }
+}
+.animationtype{
+animation: circle 2s linear 1s infinite alternate forwards;
+}
+.picture{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-left: 600px;
+    margin-top: 100px;
+    text-align: center;
+}
